@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="contenedorpadre">
+        <div class="header">
+            <h2>Sign Up</h2>
+            <div class="btns_signup">
+              <button class="btn" id="google">
+                <img src="logoGoogle.jpg" alt="Logo" width="30" height="30">
+                <span>Registrarse con Google</span>
+            </button>
+              <button class="btn" id="tw">
+                <img src="tw.png" alt="Logo" width="15" height="15">
+              </button>
+            </div>
+          </div>
+          <div class="separator">
+            <hr />
+            <span>Or</span>
+            <hr />
+          </div>
+          <div class="contenedor">
+            <form action="" method="get">
+              <div class="name">
+                <label for="name">
+                  <span>Name</span>
+                  <input type="text" name="name" id="name" required />
+                </label>
+                <label for="username">
+                  <span>Username</span>
+                  <input type="text" name="username" id="username" required />
+                </label>
+              </div>
+              <div class="empass">
+                <label for="email">
+                  <span>Email</span>
+                  <input type="email" name="email" id="email" required />
+                </label>
+              </div>
+              <div class="empass">
+                <label for="password">
+                  <span>Password</span>
+                  <input type="password" name="password" id="password" required />
+                </label>
+              </div>
+              <div class="terms">
+                  <input type="checkbox" name="terms" id="terms" required />
+                  <label for="terms">Creating an account means you’re okay with our Terms of Service,
+                  Privacy Policy, and our default Notification Settings.</label>
+              </div>
+              <div class="create">
+                  <button type="submit">Create Account</button>
+              </div>
+            </form>
+          </div>
+    </div>
+
+  </body>
+</html>
